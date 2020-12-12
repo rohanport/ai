@@ -11,7 +11,7 @@ env.reset()
 seed(1)
 
 for agent in env.agent_iter():
-    if (os.getenv('SHOW_DISPLAY')):
+    if (os.getenv('RENDER_ENV')):
         env.render()
         time.sleep(0.1)
     
@@ -24,5 +24,5 @@ for agent in env.agent_iter():
     	env.step(None)
 
 
-if (os.getenv('SHOW_DISPLAY')):
+if (os.getenv('RENDER_ENV')):
         env.close()

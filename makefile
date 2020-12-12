@@ -1,5 +1,6 @@
 # Usage:
 # install 	- Installs package and all required dependencies
+# add 		- Installs new dependency
 # run 		- Runs models
 
 .ONESHELL:
